@@ -2,6 +2,8 @@ from models.python_kursas import Kursas,PythonKursas
 import datetime
 import numpy
 import django
+import pandas
+
 
 kursas = Kursas("Algis Stankevicius",40)
 python_kursas = PythonKursas("Donatas Noreikia",30)
