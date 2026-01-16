@@ -5,8 +5,8 @@ import django
 import pandas
 
 
-kursas = Kursas("Algis Stankevicius",40)
-python_kursas = PythonKursas("Donatas Noreikia",30)
+kursas = Kursas("Istorija","Algis Stankevicius",40)
+python_kursas = PythonKursas("Python programavimas","Donatas Noreikia",30)
 
 if __name__ == "__main__":
     print("Ar mokymas vyksta")
